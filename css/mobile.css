@@ -1,0 +1,155 @@
+/*header start*/
+header{
+    display: flex;
+    flex-direction: column;
+}
+header .h-right a{
+    width: 100%;
+
+}
+header .h-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(208, 252, 252, 0);
+    padding: 30px;
+    grid-gap: 5px;
+}
+.h-right a{
+    background-color: rgb(6, 95, 179);
+    color: white;
+    border-radius: 10px;
+    
+}
+.vlog i{
+    display: none;
+}
+.vlog{
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+}
+.vlog a{
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.vlog-cont{
+    display: none;
+}
+.h-left{
+    height: 60px;
+    width: 100px;
+    margin: 10px 70px;
+}
+
+
+/*header end*/
+/*section1 start*/
+.section1{
+    display: grid;
+}
+.section1-left{
+    grid-area: s1l;
+
+}
+.section1-right{
+    grid-area: s1r;
+
+}
+.section1{
+    grid-template-areas: 
+    's1r'
+    's1l'
+    ;
+    
+}
+.section1-left{
+width: 90%;
+text-align: center;
+margin-top: 30px;
+}
+.section1-right{
+width: 100%;
+margin: 0 auto;
+
+}
+.section1-right img{
+    width:100%;
+    padding: 25px 25px 0px 25px;
+}
+.section1-left h1{
+margin:30px auto;
+}
+.section1-left .s1p2{
+    text-align: justify;
+    padding: 10px;
+}
+/*section 1 end*/
+/*section 2 start*/
+.section2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0);
+    width: 90%;
+    height: 394px;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 100%;
+}
+.section2-left{
+    width: 100%;
+    background-color: rgba(211, 211, 191, 0);
+}
+.section2-right{
+    width: 100%;
+    background-color: rgba(173, 163, 150, 0);
+}
+
+
+.section2-right{
+    
+    background-color: rgba(173, 164, 152, 0);
+   
+    padding-top: 30px;
+    text-align: justify;
+    }
+.section2-right .s2p1{
+padding-bottom: 29px;
+
+}
+.section2-right h1{
+    padding-bottom: 49px;
+    color: blueviolet;
+}
+.section2-right .s2p2{
+    width: 90%;
+    color: rgba(0, 0, 0, 0.61);
+    margin: 0 auto;
+    padding-bottom: 39px;
+}
+/*section 2 end*/
+.div{
+    clear: both;
+    display: table;
+    content: '';
+    height: 300px;
+}
+/*footer*/
+footer{
+    flex-direction: column;
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    grid-gap: 50px;
+    text-align: center;
+}
+footer h3{
+    padding-bottom: 10px;
+}
+footer input{
+    
+}
+.follow-me i{
+    text-align: center;
+    margin: 5px 10px;
+}
+/*footer*/

@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    
+}
+/*header start*/
+header{
+    width: 100%;
+    
+    display: flex;
+}
+header .h-left{
+    display: flex;
+    background-color: rgba(137, 43, 226, 0);
+    max-height: 100px;
+    padding-left: 10%;
+    width: 100px;
+}
+header .h-left i{
+    font-size: 30px;
+    margin: 5px;
+    color: rgb(4, 113, 255);
+    margin:30px auto;
+}
+header .h-left h2{
+    margin:22px auto;
+}
+
+}
+.h-right a{
+    padding: 5px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: aqua;
+    font-size: 1px;
+}
+header .h-right a{
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+/*header end*/
+/*section1 start*/
+
+.section1-left button{
+    padding: 15px 25px;
+    background: linear-gradient(to right, rgb(24, 86, 201), rgb(13, 144, 252));
+    border: none;
+    border-radius: 15px;
+}
+.section1-left button:hover{
+    box-shadow: 1px 1px 10px;
+}
+.section1-left button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+/*section 1 end*/
+/*section 2 start*/
+.section2-right button{
+    padding: 15px 25px;
+    background: linear-gradient(to right, rgb(24, 86, 201), rgb(13, 144, 252));
+    border: none;
+    border-radius: 15px;
+}
+.section2-right button:hover{
+    box-shadow: 1px 1px 10px;
+}
+.section2-right button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+/*section 2 end*/
+/*footer*/
+.footer{
+    background-color: #04091E;
+    color: rgb(168, 168, 168);
+}
+.about-me .fp2{
+    padding-bottom: 4px;
+}
+.about-me a{
+    text-decoration: none;
+    color: rgb(84, 84, 252);
+    font-size: 13px;
+    
+}
+footer p{
+    font-size: 13px;
+}
+footer h3{
+    padding-bottom: 30px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border: none;
+    padding-left: 35px;
+}
+.ni{position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    display: inline;
+    background-color: rgb(6, 172, 238);
+}
+.Newsletter{
+    position: relative;
+}
+.Newsletter p{
+    padding-bottom: 20px;
+}
+.Newsletter i{
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
